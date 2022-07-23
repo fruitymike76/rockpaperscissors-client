@@ -36,11 +36,7 @@ const UserMenu = () => {
     }
 
     return (
-        <ConnectWalletButton scale="sm">
-            <Box display='block'>
-                Connect
-            </Box>
-        </ConnectWalletButton>
+        <ConnectWalletButton scale='sm' />
     )
 }
 

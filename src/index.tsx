@@ -8,7 +8,7 @@ import App from './App';
 import { ToastsProvider } from './components/Toast';
 import { ModalProvider } from './components/Modal';
 import GlobalStyle from './theme/GlobalStyle';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import { ThemeProvider } from './theme';
 import ToastListener from './components/Toast/Listener';
 
@@ -20,11 +20,11 @@ root.render(
             <ToastsProvider>
                 <ThemeProvider>
                     <ModalProvider>
-                        <HashRouter>
+                        <BrowserRouter>
                             <GlobalStyle />
                             <App />
                             <ToastListener />
-                        </HashRouter>
+                        </BrowserRouter>
                     </ModalProvider>
                 </ThemeProvider>
             </ToastsProvider>

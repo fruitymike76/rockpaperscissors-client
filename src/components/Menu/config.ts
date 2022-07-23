@@ -10,29 +10,29 @@ import {
 export const links: MenuItemsType[] = [
     {
         label: 'Play',
-        href: '/newgame',
+        href: '/rockpaperscissors-client/newgame',
         items: [
             {
                 label: 'Create game',
-                href: '/newgame'
+                href: '/rockpaperscissors-client/newgame'
             },
             {
                 label: 'Find game',
-                href: '/findgames'
+                href: '/rockpaperscissors-client/findgames'
             }
         ]
     },
     {
         label: 'Withraw',
-        href: '/referral',
+        href: '/rockpaperscissors-client/referral',
         items: [
             {
                 label: 'Referral',
-                href: '/referral'
+                href: '/rockpaperscissors-client/referral'
             },
             {
                 label: 'Claim',
-                href: '/claim'
+                href: '/rockpaperscissors-client/claim'
             }
         ]
     }

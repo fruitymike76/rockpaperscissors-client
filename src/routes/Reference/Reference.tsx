@@ -71,7 +71,7 @@ const Referral = () => {
             setTransactionPending(false);
         }
     }
-    const refLink = `${window.origin}/newgame?ref=${account}`;
+    const refLink = `${window.origin}/rockpaperscissors-client/newgame?ref=${account}`;
     const refTipRate = (referralRate / 100).toFixed(2);
 
     if (!account || error)

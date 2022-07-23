@@ -72,7 +72,7 @@ const GameCard = ({ height, width, game, removeCallback }: Props) => {
                     <Text as='p'>{game.game.passwordHash === constants.HashZero ? 'No' : 'Yes'}</Text>
                 </InfoContainer>
 
-                <Link style={{textDecoration: 'none'}} to={`/game?id=${id}`} target='_blank'><Button variant='success' height='32px' width='100%' mb='8px'>Join</Button></Link>
+                <Link style={{textDecoration: 'none'}} to={`/rockpaperscissors-client/game?id=${id}`} target='_blank'><Button variant='success' height='32px' width='100%' mb='8px'>Join</Button></Link>
                 <Button variant='warning' height='32px' onClick={removeCallback}>remove</Button>
             </StyledCard>
         </CardContainer>

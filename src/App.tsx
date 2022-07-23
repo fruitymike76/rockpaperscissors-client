@@ -22,13 +22,13 @@ const App = () => {
                         <Outlet />
                     </Menu>
                 }>
-                    <Route path='/' element={<Home />} />
-                    <Route path='/newgame' element={<NewGame />} />
-                    <Route path='/game' element={<Game />} />
-                    <Route path='/referral' element={<Reference />} />
-                    <Route path='/findgames' element={<FindGames />} />
-                    <Route path='/claim' element={<Claim />} />
-                    <Route path='*' element={<Navigate to='/' />} />
+                    <Route path='/rockpaperscissors-client/' element={<Home />} />
+                    <Route path='/rockpaperscissors-client/newgame' element={<NewGame />} />
+                    <Route path='/rockpaperscissors-client/game' element={<Game />} />
+                    <Route path='/rockpaperscissors-client/referral' element={<Reference />} />
+                    <Route path='/rockpaperscissors-client/findgames' element={<FindGames />} />
+                    <Route path='/rockpaperscissors-client/claim' element={<Claim />} />
+                    <Route path='*' element={<Navigate to='/rockpaperscissors-client' />} />
                 </Route>
             </Routes>
         </>

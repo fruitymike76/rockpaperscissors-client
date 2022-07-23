@@ -78,7 +78,7 @@ const Menu: React.FC<Props> = ({
             <FixedContainer height={MENU_HEIGHT}>
                 <StyledNav>
                     <Flex>
-                        <Logo href={'/'} />
+                        <Logo href='/rockpaperscissors-client' />
                         <DisplayWrapper isDesktop={true}>
                             <MenuItems items={links} activeItem={activeItem} activeSubItem={activeSubItem} ml='12px' />
                         </DisplayWrapper>
