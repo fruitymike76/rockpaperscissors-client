@@ -1,0 +1,1 @@
+(self.webpackChunkrockpaperscissors_client=self.webpackChunkrockpaperscissors_client||[]).push([[563],{36563:function(){}}]);
