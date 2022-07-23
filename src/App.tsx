@@ -12,7 +12,6 @@ function GlobalHooks() {
 
 const App = () => {
     const location = useLocation();
-    const key = location.key;
     return (
         <>
             <GlobalHooks />

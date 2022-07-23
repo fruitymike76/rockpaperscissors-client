@@ -20,7 +20,7 @@ root.render(
             <ToastsProvider>
                 <ThemeProvider>
                     <ModalProvider>
-                        <BrowserRouter>
+                        <BrowserRouter basename='/rockpaperscissors-client'>
                             <GlobalStyle />
                             <App />
                             <ToastListener />
