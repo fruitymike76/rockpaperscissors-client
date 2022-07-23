@@ -8,7 +8,7 @@ import App from './App';
 import { ToastsProvider } from './components/Toast';
 import { ModalProvider } from './components/Modal';
 import GlobalStyle from './theme/GlobalStyle';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { ThemeProvider } from './theme';
 import ToastListener from './components/Toast/Listener';
 
@@ -20,11 +20,11 @@ root.render(
             <ToastsProvider>
                 <ThemeProvider>
                     <ModalProvider>
-                        <BrowserRouter basename='/rockpaperscissors-client'>
+                        <HashRouter>
                             <GlobalStyle />
                             <App />
                             <ToastListener />
-                        </BrowserRouter>
+                        </HashRouter>
                     </ModalProvider>
                 </ThemeProvider>
             </ToastsProvider>
